@@ -1,0 +1,68 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+
+
+
+.portaila{
+    width: 40%;
+    margin-top: -60px;
+}
+
+.ange{ 
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    animation-name: drive;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-iteration-count: infinite;
+}
+
+@keyframes drive{
+    from{transform: translateX(0px);}
+    to{transform: translateX(1060px);}
+}
+  
+.achat{
+    display: flex;
+}
+
+.aur{
+    width: 30%;
+}
+.aur:hover{
+    width: 31%;
+}
+
+.achat{
+    text-align: left;
+    margin-left: 20px;
+}
+
+.intro{
+    width: 20%;
+  margin-top: 20%;
+}
+
+.contact{
+    width: 30%;
+    text-align: left;
+}
+
+.a{
+    display: block;
+    text-align: left;
+   margin-top: 50px;
+}
+
+.contacta{
+   float: left;
+}
+
+
+.compte{
+    width: 13%;
+    margin-left: 70px;
+}
